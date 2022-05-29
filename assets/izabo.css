@@ -58,20 +58,11 @@ img.header__heading-logo {
 }
 
 .button {
-	border: .5px solid rgb(var(--color-foreground));
-	border-radius: 15px;
-	padding: 1rem;
+	border: .1rem solid rgb(var(--color-foreground));
 	background: transparent;
 	font-size: 1.8rem;
-	letter-spacing: .1rem;
-	line-height: 1;
 	text-transform: uppercase;
 	color: rgb(var(--color-foreground));
-  box-shadow: none;
-}
-
-.button::after {
-  box-shadow: none;
 }
 
 @media screen and (min-width: 990px) {
