@@ -57,7 +57,7 @@ img.header__heading-logo {
   margin: 0;
 }
 
-button.button {
+.button {
 	border: .5px solid rgb(var(--color-foreground));
 	border-radius: 15px;
 	padding: 1rem;
