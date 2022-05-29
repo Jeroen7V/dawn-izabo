@@ -1,4 +1,16 @@
-.header__icons {
+@font-face {
+  font-family: 'Favorit regular';
+  font-weight: 500;
+  src: url('favorit-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Favorit Mono';
+  font-weight: 500;
+  src: url('favorit_regular_mono-webfont.woff') format('woff');
+}
+ 
+ .header__icons {
   display: none;
 }
 
@@ -7,6 +19,14 @@ sticky-header.header-wrapper {
 	position: fixed;
 	background-color: rgb(var(--color-background));
 	width: 100%;
+  top: 0;
+  border: 0;
+}
+
+.header__menu-item {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-family: 'Favorit Mono';
 }
 
 @media screen and (min-width: 990px) {
