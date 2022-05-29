@@ -250,6 +250,14 @@
                 {{ product.description }}
               </div>
             {%- endif -%}
+            <div class="product__care rte quick-add-hidden">
+              <p>Avoid direct contact with perfume, soap and chemicals while wearing your jewelery. Remove the jewelery before showering, intense workouts, swimming, and sunbathing and store it in a dry place.</p>
+            </div>
+            {%- if product.metafields.my_fields.composition != blank -%}
+            <div class="product__composition rte quick-add-hidden">
+              {{ product.metafields.my_fields.composition }}
+            </div>
+            {%- endif -%}
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
           {%- when 'collapsible_tab' -%}
