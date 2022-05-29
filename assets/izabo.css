@@ -87,6 +87,10 @@ pickup-availability.product__pickup-availabilities {
   font-weight: bold;
 }
 
+.mega-menu ul.mega-menu__list--condensed {
+	text-align: right;
+}
+
 @media screen and (min-width: 990px) {
   .header--middle-left {
     grid-template-areas: "heading navigation";
