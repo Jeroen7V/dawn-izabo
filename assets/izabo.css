@@ -2,7 +2,7 @@
   display: none;
 }
 
-sticky-header {
+sticky-header.header-wrapper {
 	display: block;
 	position: fixed;
 	background-color: rgb(var(--color-background));
