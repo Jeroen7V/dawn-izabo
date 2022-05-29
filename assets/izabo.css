@@ -17,7 +17,7 @@
 sticky-header.header-wrapper {
 	display: block;
 	position: fixed;
-	background-color: rgb(var(--color-background));
+	background: linear-gradient(rgba(var(--color-background), 1),rgba(var(--color-background), 0));
 	width: 100%;
   top: 0;
   border: 0;
@@ -27,6 +27,10 @@ sticky-header.header-wrapper {
   font-size: 1.8rem;
   text-transform: uppercase;
   font-family: 'Favorit Mono';
+}
+
+.header__heading-logo {
+  max-width: 180;
 }
 
 @media screen and (min-width: 990px) {
