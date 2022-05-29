@@ -82,6 +82,11 @@ pickup-availability.product__pickup-availabilities {
 	max-width: 100%;
 }
 
+.product__description h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 @media screen and (min-width: 990px) {
   .header--middle-left {
     grid-template-areas: "heading navigation";
