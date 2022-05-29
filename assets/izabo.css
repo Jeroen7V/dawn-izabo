@@ -78,6 +78,10 @@ pickup-availability.product__pickup-availabilities {
 	max-width: 100%;
 }
 
+.product__title img {
+	max-width: 100%;
+}
+
 @media screen and (min-width: 990px) {
   .header--middle-left {
     grid-template-areas: "heading navigation";
