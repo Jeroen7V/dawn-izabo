@@ -212,6 +212,8 @@
             </p>
           {%- when 'title' -%}
             <div class="product__title" {{ block.shopify_attributes }}>
+              <img src="{{ product.metafields.my_fields.product_title | image_url }}" alt="">
+              <p>{{ product.metafields.my_fields.product_title}}</p>
               {% if product.metafields.my_fields.product_title %}
               <img src="{{ product.metafields.my_fields.product_title | image_url }}" alt="">
               {% else %}
