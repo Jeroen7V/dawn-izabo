@@ -65,6 +65,10 @@ img.header__heading-logo {
 	color: rgb(var(--color-foreground));
 }
 
+.button::after {
+  box-shadow: none;
+}
+
 pickup-availability.product__pickup-availabilities {
   display: none;
 }
