@@ -12,6 +12,7 @@
 
 body {
   font-family: 'Favorit Mono';
+  letter-spacing: .1rem;
 }
  
  .header__icons {
@@ -54,6 +55,18 @@ img.header__heading-logo {
 
 .product-grid {
   margin: 0;
+}
+
+button.button {
+	border: .5px solid rgb(var(--color-foreground));
+	border-radius: 15px;
+	padding: 1rem;
+	background: transparent;
+	font-size: 1.8rem;
+	letter-spacing: .1rem;
+	line-height: 1;
+	text-transform: uppercase;
+	color: rgb(var(--color-foreground));
 }
 
 @media screen and (min-width: 990px) {
