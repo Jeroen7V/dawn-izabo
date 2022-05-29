@@ -65,7 +65,7 @@ img.header__heading-logo {
 	color: rgb(var(--color-foreground));
 }
 
-pickup-availability {
+pickup-availability.product__pickup-availabilities {
   display: none;
 }
 
