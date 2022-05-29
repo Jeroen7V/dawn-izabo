@@ -2,6 +2,13 @@
   display: none;
 }
 
+sticky-header {
+	display: block;
+	position: fixed;
+	background-color: rgb(var(--color-background));
+	width: 100%;
+}
+
 @media screen and (min-width: 990px) {
   .header--middle-left {
     grid-template-areas: "heading navigation";
