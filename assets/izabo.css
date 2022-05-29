@@ -17,7 +17,7 @@
 sticky-header.header-wrapper {
 	display: block;
 	position: fixed;
-	background: linear-gradient(rgba(var(--color-background), 1),rgba(var(--color-background), 0));
+	background-color: rgba(var(--color-background), 1);
 	width: 100%;
   top: 0;
   border: 0;
@@ -38,6 +38,10 @@ summary.header__menu-item {
 
 img.header__heading-logo {
   max-width: 120px;
+}
+
+#MainContent {
+  margin-top: 6rem;
 }
 
 @media screen and (min-width: 990px) {
