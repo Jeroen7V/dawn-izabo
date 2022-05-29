@@ -67,6 +67,11 @@ img.header__heading-logo {
 	line-height: 1;
 	text-transform: uppercase;
 	color: rgb(var(--color-foreground));
+  box-shadow: none;
+}
+
+.button::after {
+  box-shadow: none;
 }
 
 @media screen and (min-width: 990px) {
