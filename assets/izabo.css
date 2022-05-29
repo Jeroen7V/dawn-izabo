@@ -89,7 +89,7 @@ pickup-availability.product__pickup-availabilities {
     justify-self: end;
   }
 
-  .product--stacked .product__media-item {
+  .product--stacked li.product__media-item {
     width: 100%;
     max-width: calc(100% - var(--grid-desktop-horizontal-spacing));
   }
