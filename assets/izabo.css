@@ -73,10 +73,6 @@ pickup-availability.product__pickup-availabilities {
   display: none;
 }
 
-.product--stacked .product__media-item {
-	max-width: calc(100% - var(--grid-desktop-horizontal-spacing));
-}
-
 @media screen and (min-width: 990px) {
   .header--middle-left {
     grid-template-areas: "heading navigation";
@@ -86,5 +82,9 @@ pickup-availability.product__pickup-availabilities {
 
   .header--middle-left .header__inline-menu {
     justify-self: end;
+  }
+
+  .product--stacked .product__media-item {
+    max-width: calc(100% - var(--grid-desktop-horizontal-spacing));
   }
 }
