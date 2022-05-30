@@ -38,7 +38,8 @@ summary.header__menu-item {
   font-family: 'Favorit Mono';
   font-weight: bold;
   text-transform: uppercase;  
-  color: rgb(var(--color-foreground));
+  color: rgb(var(--color-background));
+  text-shadow: 1px 1px 1px rgb(var(--color-foreground));
 }
 
 img.header__heading-logo {
