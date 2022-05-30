@@ -115,6 +115,7 @@ html:not([data-pastheader='true']) .icon-hamburger {
 
 html:not([data-pastheader='false']) sticky-header.menu-opening {
   background-color: rgba(var(--color-background), 1);
+  transition: transform var(--duration-default) ease,visibility var(--duration-default) ease;
 }
 
 html:not([data-pastheader='false']) sticky-header {
