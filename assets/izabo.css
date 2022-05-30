@@ -28,6 +28,10 @@ sticky-header.header-wrapper {
   border: 0;
 }
 
+sticky-header.header-wrapper .header__heading-logo {
+  filter: invert(100%);
+}
+
 header.header {
   margin: 0;
   max-width: 100%;
@@ -40,6 +44,10 @@ summary.header__menu-item {
   text-transform: uppercase;
   color: rgb(var(--color-background));
   /* text-shadow: 1px 1px 0 rgb(var(--color-foreground)); */
+}
+
+summary.header__menu-item:hover {
+  color: rgb(var(--color-background));
 }
 
 img.header__heading-logo {
@@ -109,8 +117,8 @@ pickup-availability.product__pickup-availabilities {
     transition: background-color 0.5s ease-in-out;
   }
 
-  html:not([data-pastheader='true']) sticky-header.header-wrapper .header__heading-logo {
-    filter: invert(100%);
+  html:not([data-pastheader='false']) sticky-header.header-wrapper .header__heading-logo {
+    filter: invert(0%);
   }
 
 
