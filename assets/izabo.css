@@ -50,10 +50,6 @@ summary.header__menu-item:hover {
   color: rgb(var(--color-background));
 }
 
-img.header__heading-logo {
-  max-width: 120px;
-}
-
 #MainContent {
   margin-top: 0rem;
 }
