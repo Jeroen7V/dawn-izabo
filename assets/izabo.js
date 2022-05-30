@@ -12,7 +12,10 @@ const debounce = (fn) => {
 
 const storeScroll = () => {
   document.documentElement.dataset.scroll = window.scrollY;
-  if (window.scrollY > 720) {
+  var imageHeight = document.getElementsByClassName("banner")[0].clientHeight;
+  var headerHeight = document.getElementsByTagName("sticky-header")[0].clientHeight;
+  var scrollPoint = imageHeight - headerHeight;
+  if (window.scrollY > scrollPoint) {
     document.documentElement.dataset.pastheader = true;
   } else {
     document.documentElement.dataset.pastheader = false;
