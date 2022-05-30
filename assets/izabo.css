@@ -102,20 +102,26 @@ pickup-availability.product__pickup-availabilities {
   html:not([data-pastheader='true']) sticky-header.header-wrapper .header__heading-logo {
     filter: invert(100%);
   }
-}
 
-.header--middle-left {
-  grid-template-areas: "heading navigation";
-  grid-template-columns: auto auto;
-  column-gap: 2rem;
-}
 
-.header--middle-left .header__inline-menu {
-  justify-self: end;
-}
 
-.product--stacked li.product__media-item {
-  width: 100%;
-  max-width: calc(100% - var(--grid-desktop-horizontal-spacing));
-}
+  html:not([data-pastheader='true']) summary.header__menu-item {
+    color: rgb(var(--color-foreground));
+    text-shadow: none;
+  }
+
+  .header--middle-left {
+    grid-template-areas: "heading navigation";
+    grid-template-columns: auto auto;
+    column-gap: 2rem;
+  }
+
+  .header--middle-left .header__inline-menu {
+    justify-self: end;
+  }
+
+  .product--stacked li.product__media-item {
+    width: 100%;
+    max-width: calc(100% - var(--grid-desktop-horizontal-spacing));
+  }
 }
