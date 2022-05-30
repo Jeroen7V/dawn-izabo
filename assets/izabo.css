@@ -113,9 +113,13 @@ html:not([data-pastheader='true']) .icon-hamburger {
   color: rgb(var(--color-background))
 }
 
-html:not([data-pastheader='false']) sticky-header.header-wrapper {
+html:not([data-pastheader='false']) sticky-header {
   background: linear-gradient(rgba(var(--color-background), 1),rgba(var(--color-background), 0));
   transition: background-color 0.5s ease-in-out;
+}
+
+html:not([data-pastheader='false']) sticky-header.menu-opening {
+  background-color: rgba(var(--color-background), 1);
 }
 
 html:not([data-pastheader='false']) sticky-header.header-wrapper .header__heading-logo {
