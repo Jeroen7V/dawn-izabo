@@ -93,7 +93,7 @@ pickup-availability.product__pickup-availabilities {
 }
 
 @media screen and (min-width: 990px) {
-  html:not([data-pastheader='true']) sticky-header.header-wrapper {
+  html:not([data-pastheader='false']) sticky-header.header-wrapper {
     background-color: rgba(var(--color-background), 1);
     transition: background-color 0.5s ease-in-out;
   }
