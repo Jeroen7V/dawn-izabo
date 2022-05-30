@@ -32,6 +32,10 @@ sticky-header.menu-opening {
   background-color: rgba(var(--color-background), 1);
 }
 
+sticky-header.menu-opening .header__heading-logo {
+  filter: invert(0%);
+}
+
 sticky-header.header-wrapper .header__heading-logo {
   filter: invert(100%);
 }
