@@ -12,7 +12,7 @@ const debounce = (fn) => {
 
 const storeScroll = () => {
   document.documentElement.dataset.scroll = window.scrollY;
-  if window.scrollY > 720 {
+  if (window.scrollY > 720) {
     document.documentElement.dataset.bastheader = true;
   } else {
     document.documentElement.dataset.bastheader = false;
