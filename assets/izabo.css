@@ -39,7 +39,7 @@ summary.header__menu-item {
   font-weight: bold;
   text-transform: uppercase;
   color: rgb(var(--color-background));
-  text-shadow: 1px 1px 0 rgb(var(--color-foreground));
+  /* text-shadow: 1px 1px 0 rgb(var(--color-foreground)); */
 }
 
 img.header__heading-logo {
@@ -91,6 +91,15 @@ pickup-availability.product__pickup-availabilities {
 
 .mega-menu ul.mega-menu__list--condensed {
   text-align: right;
+}
+
+.mega-menu .mega-menu__list {
+  background: transparent;
+  border: none
+}
+
+.mega-menu .mega-menu__link {
+  color: rgb(var(--color-background));
 }
 
 @media screen and (min-width: 990px) {
