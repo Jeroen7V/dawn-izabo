@@ -23,6 +23,7 @@ document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
 });
 
 const trapFocusHandlers = {};
+const stickyHeaderElement = document.getElementsByTagName("sticky-header")[0];
 
 function trapFocus(container, elementToFocus = container) {
   var elements = getFocusableElements(container);
@@ -312,7 +313,6 @@ class MenuDrawer extends HTMLElement {
 
   onSummaryClick(event) {
     const summaryElement = event.currentTarget;
-    const stickyHeaderElement = document.getElementsByTagName("sticky-header")[0];
     const detailsElement = summaryElement.parentNode;
     const parentMenuElement = detailsElement.closest('.has-submenu');
     const isOpen = detailsElement.hasAttribute('open');
