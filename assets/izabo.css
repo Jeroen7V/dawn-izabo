@@ -105,7 +105,7 @@ pickup-availability.product__pickup-availabilities {
 
 
 
-  html:not([data-pastheader='true']) summary.header__menu-item {
+  html:not([data-pastheader='false']) summary.header__menu-item {
     color: rgb(var(--color-foreground));
     text-shadow: none;
   }
