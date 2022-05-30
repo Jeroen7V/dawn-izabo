@@ -13,9 +13,9 @@ const debounce = (fn) => {
 const storeScroll = () => {
   document.documentElement.dataset.scroll = window.scrollY;
   if (window.scrollY > 720) {
-    document.documentElement.dataset.bastheader = true;
+    document.documentElement.dataset.pastheader = true;
   } else {
-    document.documentElement.dataset.bastheader = false;
+    document.documentElement.dataset.pastheader = false;
   }
 }
 
