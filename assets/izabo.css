@@ -36,7 +36,7 @@ sticky-header.menu-opening .header__heading-logo {
   filter: invert(0%);
 }
 
-sticky-header.header-wrapper .header__heading-logo {
+sticky-header .header__heading-logo {
   filter: invert(100%);
 }
 
