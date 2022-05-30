@@ -97,6 +97,10 @@ pickup-availability.product__pickup-availabilities {
   font-weight: bold;
 }
 
+html:not([data-banner='true']) #MainContent {
+  margin-top: 5rem;
+}
+
 html:not([data-pastheader='true']) .icon-hamburger {
   color: rgb(var(--color-background))
 }
