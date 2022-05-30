@@ -329,7 +329,7 @@ class MenuDrawer extends HTMLElement {
     } else {
       setTimeout(() => {
         detailsElement.classList.add('menu-opening');
-        stickyHeaderElement.classList.add('menu-opening')
+        stickyHeaderElement.classList.add('menu-opening');
         summaryElement.setAttribute('aria-expanded', true);
         parentMenuElement && parentMenuElement.classList.add('submenu-open');
         !reducedMotion || reducedMotion.matches ? addTrapFocus() : summaryElement.nextElementSibling.addEventListener('transitionend', addTrapFocus);
@@ -340,6 +340,7 @@ class MenuDrawer extends HTMLElement {
   openMenuDrawer(summaryElement) {
     setTimeout(() => {
       this.mainDetailsToggle.classList.add('menu-opening');
+      stickyHeaderElement.classList.add('menu-opening');
     });
     summaryElement.setAttribute('aria-expanded', true);
     trapFocus(this.mainDetailsToggle, summaryElement);
@@ -350,9 +351,11 @@ class MenuDrawer extends HTMLElement {
     if (event === undefined) return;
 
     this.mainDetailsToggle.classList.remove('menu-opening');
+    stickyHeaderElement.classList.remove('menu-opening');
     this.mainDetailsToggle.querySelectorAll('details').forEach(details => {
       details.removeAttribute('open');
       details.classList.remove('menu-opening');
+      stickyHeaderElement.classList.remove('menu-opening');
     });
     this.mainDetailsToggle.querySelectorAll('.submenu-open').forEach(submenu => {
       submenu.classList.remove('submenu-open');
@@ -377,6 +380,7 @@ class MenuDrawer extends HTMLElement {
     const parentMenuElement = detailsElement.closest('.submenu-open');
     parentMenuElement && parentMenuElement.classList.remove('submenu-open');
     detailsElement.classList.remove('menu-opening');
+    stickyHeaderElement.classList.remove('menu-opening');
     detailsElement.querySelector('summary').setAttribute('aria-expanded', false);
     removeTrapFocus(detailsElement.querySelector('summary'));
     this.closeAnimation(detailsElement);
@@ -421,6 +425,7 @@ class HeaderDrawer extends MenuDrawer {
 
     setTimeout(() => {
       this.mainDetailsToggle.classList.add('menu-opening');
+      stickyHeaderElement.classList.add('menu-opening');
     });
 
     summaryElement.setAttribute('aria-expanded', true);
