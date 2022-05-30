@@ -93,7 +93,8 @@ pickup-availability.product__pickup-availabilities {
   text-align: right;
 }
 
-.mega-menu .mega-menu__list {
+.mega-menu[open] div.mega-menu__content {
+  opacity: 0;
   background: transparent;
   border: none
 }
