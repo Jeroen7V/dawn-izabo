@@ -312,6 +312,7 @@ class MenuDrawer extends HTMLElement {
 
   onSummaryClick(event) {
     const summaryElement = event.currentTarget;
+    const stickyHeaderElement = document.getElementsByTagName("sticky-header")[0];
     const detailsElement = summaryElement.parentNode;
     const parentMenuElement = detailsElement.closest('.has-submenu');
     const isOpen = detailsElement.hasAttribute('open');
@@ -328,6 +329,7 @@ class MenuDrawer extends HTMLElement {
     } else {
       setTimeout(() => {
         detailsElement.classList.add('menu-opening');
+        stickyHeaderElement.classList.add('menu-opening')
         summaryElement.setAttribute('aria-expanded', true);
         parentMenuElement && parentMenuElement.classList.add('submenu-open');
         !reducedMotion || reducedMotion.matches ? addTrapFocus() : summaryElement.nextElementSibling.addEventListener('transitionend', addTrapFocus);
