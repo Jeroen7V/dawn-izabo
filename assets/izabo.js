@@ -1,9 +1,20 @@
-$(function(){
-  $(window).scroll(function() {
-      var scroll = $(window).scrollTop(); // how many pixels you've scrolled
-      console.log(scroll)
-      if(scroll > os + ht){
-          $('#div2').addClass('blue');
-      }
-  });
-});
+const debounce = (fn) => {
+  let frame;
+  return (...params) => {
+    if (frame) { 
+      cancelAnimationFrame(frame);
+    }
+    frame = requestAnimationFrame(() => {
+      fn(...params);
+    });
+  } 
+};
+
+const storeScroll = () => {
+  document.documentElement.dataset.scroll = window.scrollY;
+}
+
+document.addEventListener('scroll', debounce(storeScroll), { passive: true });
+
+storeScroll();
+
