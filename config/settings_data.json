@@ -135,10 +135,18 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "9c7333dc-a3f7-40d1-b64d-ef7fa45abdda": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/izabo-black_1.png",
+              "image_width": 100,
+              "alignment": "center"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "",
               "menu": "footer"
             }
           },
@@ -160,6 +168,7 @@
           }
         },
         "block_order": [
+          "9c7333dc-a3f7-40d1-b64d-ef7fa45abdda",
           "footer-0",
           "footer-1",
           "footer-2"
