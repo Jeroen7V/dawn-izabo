@@ -67,11 +67,20 @@
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
+        },
+        "daca7e6d-daa5-4216-945a-4f67d20b2ae9": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "text",
+        "daca7e6d-daa5-4216-945a-4f67d20b2ae9"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -91,7 +100,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "teardrop-earring",
-        "products_to_show": 3,
+        "products_to_show": 4,
         "columns_desktop": 3,
         "full_width": true,
         "show_view_all": false,
@@ -172,12 +181,12 @@
         "show_description": false,
         "description_style": "body",
         "collection": "jelly-bean",
-        "products_to_show": 3,
+        "products_to_show": 4,
         "columns_desktop": 3,
         "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
-        "enable_desktop_slider": true,
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
