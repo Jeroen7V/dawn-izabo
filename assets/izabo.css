@@ -89,7 +89,7 @@ div.menu-drawer {
   margin: 0;
 }
 
-.card a.full-unstyled-link {
+.underline-links-hover:hover a.full-unstyled-link {
   text-decoration: none;
 }
 
