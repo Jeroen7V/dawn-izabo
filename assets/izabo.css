@@ -67,7 +67,7 @@ footer div.footer-block {
   max-width: 100%;
 }
 
-footer-block--menu li {
+.footer-block--menu li {
   margin-right: 2.5rem;
   margin-left: 2.5rem;
 }
