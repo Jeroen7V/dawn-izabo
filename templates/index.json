@@ -38,10 +38,10 @@
         "1654109129a1dc9c7e-2"
       ],
       "settings": {
-        "image_2": "shopify:\/\/shop_images\/5X0A0548_IZABO_1.jpg",
+        "image": "shopify:\/\/shop_images\/izabo-bg_1.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
+        "image_height": "large",
+        "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
