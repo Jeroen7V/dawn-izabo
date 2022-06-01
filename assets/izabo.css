@@ -119,7 +119,8 @@ html:not([data-pastheader='false']) sticky-header.menu-opening {
 }
 
 html:not([data-pastheader='false']) sticky-header {
-  background: linear-gradient(rgba(var(--color-background), 1),rgba(var(--color-background), 0));
+  /* background: linear-gradient(rgba(var(--color-background), 1),rgba(var(--color-background), 0)); */
+  background: transparent;
   transition: background-color 0.5s ease-in-out;
 }
 
