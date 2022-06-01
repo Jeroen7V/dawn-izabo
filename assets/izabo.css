@@ -45,7 +45,8 @@ header.header {
   max-width: 100%;
 }
 
-summary.header__menu-item, a.header__menu-item {
+summary.header__menu-item,
+a.header__menu-item {
   font-size: 1.5rem;
   font-family: 'Favorit Mono';
   /* font-weight: bold; */
@@ -59,7 +60,7 @@ summary.header__menu-item:hover {
 }
 
 footer a.list-menu__item {
-	text-transform: uppercase;
+  text-transform: uppercase;
   font-size: 1.5rem;
 }
 
@@ -86,6 +87,11 @@ div.menu-drawer {
 
 .product-grid {
   margin: 0;
+}
+
+.grid {
+  column-gap: 0;
+  /* row-gap: var(--grid-desktop-vertical-spacing); */
 }
 
 .button {
@@ -129,7 +135,7 @@ html:not([data-pastheader='true']) .icon-hamburger {
 
 html:not([data-pastheader='false']) sticky-header.menu-opening {
   background-color: rgba(var(--color-background), 1);
-  transition: transform var(--duration-default) ease,visibility var(--duration-default) ease;
+  transition: transform var(--duration-default) ease, visibility var(--duration-default) ease;
 }
 
 html:not([data-pastheader='false']) sticky-header {
@@ -145,9 +151,25 @@ html:not([data-pastheader='false']) sticky-header.header-wrapper .header__headin
 
 
 
-html:not([data-pastheader='false']) summary.header__menu-item, html:not([data-pastheader='false']) a.header__menu-item {
+html:not([data-pastheader='false']) summary.header__menu-item,
+html:not([data-pastheader='false']) a.header__menu-item {
   color: rgb(var(--color-foreground));
   text-shadow: none;
+}
+
+.collection--full-width .underline-links-hover:hover {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 750px) {
+  .grid {
+    column-gap: 0;
+    row-gap: 0;
+  }
+
+  .collection--full-width slider-component .slider-component-full-width {
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 990px) {
