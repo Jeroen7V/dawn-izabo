@@ -58,6 +58,20 @@ summary.header__menu-item:hover {
   color: rgb(var(--color-background));
 }
 
+footer a.list-menu__item {
+	text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+footer div.footer-block {
+  max-width: 100%;
+}
+
+footer-block--menu li {
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+}
+
 div.menu-drawer {
   width: 100%;
 }
