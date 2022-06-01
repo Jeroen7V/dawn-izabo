@@ -45,8 +45,8 @@ header.header {
   max-width: 100%;
 }
 
-summary.header__menu-item {
-  font-size: 1.8rem;
+summary.header__menu-item, a.header__menu-item {
+  font-size: 1.5rem;
   font-family: 'Favorit Mono';
   font-weight: bold;
   text-transform: uppercase;
