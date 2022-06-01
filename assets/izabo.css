@@ -130,7 +130,7 @@ html:not([data-pastheader='false']) sticky-header.header-wrapper .header__headin
 
 
 
-html:not([data-pastheader='false']) summary.header__menu-item {
+html:not([data-pastheader='false']) summary.header__menu-item, html:not([data-pastheader='false']) a.header__menu-item {
   color: rgb(var(--color-foreground));
   text-shadow: none;
 }
