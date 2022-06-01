@@ -162,10 +162,10 @@ html:not([data-pastheader='false']) a.header__menu-item {
 }
 
 @media screen and (min-width: 750px) {
-  slider-component.product-grid {
+  /* slider-component.product-grid {
     column-gap: 0;
     row-gap: 0;
-  }
+  } */
 
   .collection--full-width slider-component.slider-component-full-width {
     padding: 0 !important;
@@ -188,4 +188,6 @@ html:not([data-pastheader='false']) a.header__menu-item {
     width: 100%;
     max-width: calc(100% - var(--grid-desktop-horizontal-spacing));
   }
+
+  .grid--4-col-desktop .grid__item
 }
