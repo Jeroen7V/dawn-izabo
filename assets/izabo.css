@@ -168,7 +168,7 @@ html:not([data-pastheader='false']) a.header__menu-item {
   }
 
   .collection--full-width slider-component.slider-component-full-width {
-    padding: 0;
+    padding: 0 !important;
   }
 }
 
