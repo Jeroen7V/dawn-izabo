@@ -37,19 +37,6 @@
 {%- endstyle -%}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
-  {%- if section.settings.logo != blank -%}
-    {%- assign logo_alt = section.settings.logo.alt | default: shop.name | escape -%}
-    {%- assign logo_height = section.settings.logo_width | divided_by: section.settings.logo.aspect_ratio -%}
-    {{ section.settings.logo | image_url: width: section.settings.width | image_tag:
-      class: 'footer-block__heading',
-      widths: '50, 100, 150, 200, 250, 300, 400, 500',
-      height: logo_height,
-      width: section.settings.logo_width,
-      alt: logo_alt
-    }}
-  {%- else -%}
-    <span class="footer-block__heading">{{ shop.name }}</span>
-  {%- endif -%}
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
     <div class="footer__content-top page-width">
       {%- if section.blocks.size > 0 -%}
@@ -63,6 +50,21 @@
           endif
         -%}
         <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
+          <div class="footer-block grid__item" {{ block.shopify_attributes }}>
+          {%- if section.settings.logo != blank -%}
+            {%- assign logo_alt = section.settings.logo.alt | default: shop.name | escape -%}
+            {%- assign logo_height = section.settings.logo_width | divided_by: section.settings.logo.aspect_ratio -%}
+            {{ section.settings.logo | image_url: width: section.settings.width | image_tag:
+              class: 'footer-block__heading',
+              widths: '50, 100, 150, 200, 250, 300, 400, 500',
+              height: logo_height,
+              width: section.settings.logo_width,
+              alt: logo_alt
+            }}
+          {%- else -%}
+            <span class="footer-block__heading">{{ shop.name }}</span>
+          {%- endif -%}
+          </div>
           {%- for block in section.blocks -%}
             <div class="footer-block grid__item{% if block.type == 'link_list' and block.settings.heading != blank %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
               {% comment %}
