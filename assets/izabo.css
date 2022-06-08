@@ -120,6 +120,10 @@ pickup-availability.product__pickup-availabilities {
   max-width: 100%;
 }
 
+.footer__title {
+  margin: 0 auto;
+}
+
 .product__title img {
   max-width: 100%;
 }
