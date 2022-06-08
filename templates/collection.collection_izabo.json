@@ -108,6 +108,33 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16547045490e575885": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Teardrop",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "teardrop",
+        "products_to_show": 12,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -115,6 +142,7 @@
     "product-grid",
     "16546779407dc403d9",
     "1654677947d41bf52b",
-    "16547043036951938a"
+    "16547043036951938a",
+    "16547045490e575885"
   ]
 }
