@@ -38,7 +38,7 @@
         "description_style": "body",
         "collection": "jellybean",
         "products_to_show": 12,
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "outline",
