@@ -136,33 +136,6 @@
         "padding_bottom": 36
       }
     },
-    "16547043036951938a": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Jellybean",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "jellybean",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "outline",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "165470536591c31e90": {
       "type": "featured-collection",
       "settings": {
@@ -177,6 +150,33 @@
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16547043036951938a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Jellybean",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "jellybean",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
@@ -225,8 +225,8 @@
     "16546779407dc403d9",
     "16547045490e575885",
     "1654677947d41bf52b",
-    "16547043036951938a",
     "165470536591c31e90",
+    "16547043036951938a",
     "1654705871722f6da9"
   ]
 }
