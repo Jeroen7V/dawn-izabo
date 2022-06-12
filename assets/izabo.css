@@ -126,7 +126,8 @@ pickup-availability.product__pickup-availabilities {
 }
 
 section.page-width {
-	padding: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
 	margin: 0;
 	max-width: 100%;
 }
@@ -187,8 +188,7 @@ html:not([data-pastheader='false']) a.header__menu-item {
   }
 
   section.page-width {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0;
   }
 }
 
