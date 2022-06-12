@@ -35,7 +35,7 @@
   }
 
   .product__info-wrapper {
-    padding-left: 5rem;
+    padding-left: 1rem;
   }
 
   .product__info-wrapper--extra-padding {
@@ -333,6 +333,7 @@ a.product__text {
 
 .product__text.caption-with-letter-spacing + .product__title {
   margin-top: 0;
+  border-bottom: 1px solid black;
 }
 
 .product__accordion .accordion__content {
@@ -364,7 +365,7 @@ a.product__text {
 
 @media screen and (min-width: 750px) {
   .product__info-container {
-    max-width: 60rem;
+    max-width: 100%;
   }
 
   .product__info-container .price--on-sale .price-item--regular {

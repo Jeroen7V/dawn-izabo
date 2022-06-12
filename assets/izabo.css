@@ -141,7 +141,7 @@ section.page-width {
 }
 
 html:not([data-banner='true']) #MainContent {
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 html:not([data-pastheader='true']) .icon-hamburger {
