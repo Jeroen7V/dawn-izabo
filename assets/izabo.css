@@ -185,6 +185,11 @@ html:not([data-pastheader='false']) a.header__menu-item {
   .collection--full-width slider-component.slider-component-full-width {
     padding: 0 !important;
   }
+
+  section.page-width {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 @media screen and (min-width: 990px) {
