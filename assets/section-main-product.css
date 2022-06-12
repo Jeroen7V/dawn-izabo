@@ -1190,3 +1190,7 @@ a.product__text {
 sticky-header.header-wrapper {
   width: 50%;
 }
+
+header.header {
+  padding-right: 1rem;
+}
