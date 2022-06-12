@@ -1186,3 +1186,7 @@ a.product__text {
   margin-left: 1.2rem;
   flex-shrink: 0;
 }
+
+sticky-header.header-wrapper {
+  width: 50%;
+}
