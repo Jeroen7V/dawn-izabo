@@ -125,6 +125,12 @@ pickup-availability.product__pickup-availabilities {
   text-align: center;
 }
 
+section.page-width {
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
+
 .product__title img {
   max-width: 100%;
 }
