@@ -130,6 +130,7 @@
 
 .product-form {
   display: block;
+  border-top: 1px solid black;
 }
 
 .product-form__error-message-wrapper:not([hidden]) {
@@ -298,7 +299,6 @@ fieldset.product-form__input .form__label {
 .product__info-container .product-form,
 .product__info-container .product__description {
   margin: 2.5rem 0;
-  border-top: 1px solid black;
 }
 
 .product__text {
