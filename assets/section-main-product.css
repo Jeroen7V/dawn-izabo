@@ -63,6 +63,7 @@
   .product--small:not(.product--no-media) .product__info-wrapper {
     max-width: 50%;
     width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+    padding-top: 7rem;
   }
 
   .product--medium:not(.product--no-media) .product__info-wrapper,
@@ -1188,10 +1189,15 @@ a.product__text {
   flex-shrink: 0;
 }
 
+/* Extra Izabo */
 sticky-header.header-wrapper {
   width: 50%;
 }
 
 header.header {
   padding-right: 1rem;
+}
+
+html:not([data-banner="true"]) #MainContent {
+	margin-top: 0;
 }
