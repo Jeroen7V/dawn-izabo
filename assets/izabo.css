@@ -123,6 +123,7 @@ pickup-availability.product__pickup-availabilities {
 .footer__title .footer-block__heading {
   display: block;
   text-align: center;
+  margin: 0 auto;
 }
 
 section.page-width {
