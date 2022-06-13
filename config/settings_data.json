@@ -158,7 +158,7 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/izabo-black.png",
-          "logo_width": 140,
+          "logo_width": 100,
           "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
@@ -349,7 +349,6 @@
           ],
           "settings": {
             "color_scheme": "background-1",
-            "logo_width": 90,
             "newsletter_enable": true,
             "newsletter_heading": "Subscribe to our emails",
             "show_social": true,
