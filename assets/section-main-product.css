@@ -337,6 +337,8 @@ a.product__text {
 .product__text.caption-with-letter-spacing + .product__title {
   margin-top: 0;
   border-bottom: 1px solid black;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .product__accordion .accordion__content {
@@ -1200,4 +1202,8 @@ header.header {
 
 html:not([data-banner="true"]) #MainContent {
 	margin-top: 0;
+}
+
+.product__text.caption-with-letter-spacing + .product__title img {
+  max-width: 70%;
 }
