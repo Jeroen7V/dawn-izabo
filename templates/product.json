@@ -22,12 +22,6 @@
             "text_style": "subtitle"
           }
         },
-        "price": {
-          "type": "price",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -42,6 +36,11 @@
         },
         "description": {
           "type": "description",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
           "settings": {
           }
         },
@@ -103,10 +102,10 @@
         "vendor",
         "title",
         "caption",
-        "price",
         "variant_picker",
         "quantity_selector",
         "description",
+        "price",
         "buy_buttons",
         "collapsible-row-0",
         "collapsible-row-1",
