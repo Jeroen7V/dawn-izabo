@@ -61,15 +61,15 @@
 
   .product--medium:not(.product--no-media) .product__media-wrapper,
   .product--small:not(.product--no-media) .product__info-wrapper {
-    max-width: 50%;
-    width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+    max-width: 33%;
+    width: calc(33% - var(--grid-desktop-horizontal-spacing) / 2);
     padding-top: 7rem;
   }
 
   .product--medium:not(.product--no-media) .product__info-wrapper,
   .product--small:not(.product--no-media) .product__media-wrapper {
-    max-width: 50%;
-    width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+    max-width: 66%;
+    width: calc(66% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 }
 
