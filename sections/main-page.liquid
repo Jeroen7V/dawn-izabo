@@ -26,7 +26,6 @@
       {% assign logo_width_pct = section.settings.logo_width | append: "%" %}
       {{ section.settings.logo | image_url: width: section.settings.width | image_tag:
         class: 'page__heading',
-        height: logo_height,
         width: logo_width_pct,
         alt: logo_alt
       }}
