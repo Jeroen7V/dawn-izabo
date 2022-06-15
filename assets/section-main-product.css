@@ -1205,7 +1205,7 @@ html:not([data-banner="true"]) #MainContent {
 }
 
 .product__text.caption-with-letter-spacing + .product__title img {
-  max-width: 70%;
+  max-width: 66%;
 }
 
 div.product__description h4 {
