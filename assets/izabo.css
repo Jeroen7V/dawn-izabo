@@ -201,6 +201,10 @@ html:not([data-pastheader='false']) a.header__menu-item {
   div.grid__item {
     width: calc(100% - var(--grid-desktop-horizontal-spacing) * 3 / 4)
   }
+
+  div.footer-block ul.list-unstyled li {
+    display: inline-block;
+  }
 }
 
 @media screen and (min-width: 990px) {
