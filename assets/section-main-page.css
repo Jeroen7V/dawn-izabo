@@ -41,6 +41,10 @@ h1.main-page-title {
   display: none;
 }
 
-sticky-header.header-wrapper {
+sticky-header.header-wrapper header.header {
   display: none;
+}
+
+html:not([data-banner="true"]) #MainContent {
+  margin-top: 1rem;
 }
