@@ -197,6 +197,10 @@ html:not([data-pastheader='false']) a.header__menu-item {
   section.page-width {
     padding: 0;
   }
+
+  div.grid__item {
+    width: calc(100% - var(--grid-desktop-horizontal-spacing) * 3 / 4)
+  }
 }
 
 @media screen and (min-width: 990px) {
