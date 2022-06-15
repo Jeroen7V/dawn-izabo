@@ -1209,5 +1209,9 @@ html:not([data-banner="true"]) #MainContent {
 }
 
 div.product__description h4 {
-  margin: 1rem;
+  margin: 1rem 0;
+}
+
+div.product div.price {
+  margin: 1rem 0;
 }
