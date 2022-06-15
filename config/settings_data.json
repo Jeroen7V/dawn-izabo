@@ -145,7 +145,7 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "IZABO",
+              "heading": "",
               "menu": "footer"
             }
           },
