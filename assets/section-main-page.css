@@ -27,3 +27,8 @@ div.page-width {
   max-width: 100%;
   margin: 0 1rem;
 }
+
+div.page__title {
+  text-align: center;
+  font-size: 10rem;
+}
