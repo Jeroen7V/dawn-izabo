@@ -26,7 +26,7 @@
       {{ section.settings.logo | image_url: width: section.settings.width | image_tag:
         class: 'page__heading',
         height: logo_height,
-        width: section.settings.logo_width,
+        width: section.settings.logo_width + '%',
         alt: logo_alt
       }}
     {%- else -%}
