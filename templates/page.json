@@ -3,6 +3,8 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "logo": "shopify:\/\/shop_images\/izabo-black.png",
+        "logo_width": 250,
         "padding_top": 28,
         "padding_bottom": 28
       }
