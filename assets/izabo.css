@@ -205,6 +205,10 @@ html:not([data-pastheader='false']) a.header__menu-item {
   div.footer-block ul.list-unstyled li {
     display: inline-block;
   }
+
+  div.footer-block ul.list-unstyled {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 990px) {
