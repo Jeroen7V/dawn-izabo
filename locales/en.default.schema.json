@@ -1512,7 +1512,16 @@
       }
     },
     "main-page": {
-      "name": "Page"
+      "name": "Page",
+      "settings": {
+        "logo": {
+          "label": "Logo image"
+        },
+        "logo_width": {
+          "unit": "%",
+          "label": "Custom logo width"
+        }
+      }
     },
     "main-password-footer": {
       "name": "Password footer"
