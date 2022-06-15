@@ -21,3 +21,9 @@
   width: 52.5rem;
   height: 52.5rem;
 }
+
+/*Custom Izabo*/
+div.page-width {
+  max-width: 100%;
+  margin: 1rem 0;
+}
