@@ -184,6 +184,11 @@ html:not([data-pastheader='false']) a.header__menu-item {
   text-decoration: none;
 }
 
+ul.header__submenu.list-menu {
+  border: none;
+  background: transparent;
+}
+
 @media screen and (min-width: 750px) {
   /* slider-component.product-grid {
     column-gap: 0;
