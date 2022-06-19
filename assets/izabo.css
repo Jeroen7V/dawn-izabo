@@ -126,6 +126,10 @@ pickup-availability.product__pickup-availabilities {
   padding-bottom: 2rem;
 }
 
+.footer__title {
+  text-align: center;
+}
+
 .footer__title .footer-block__heading {
   display: block;
   text-align: center;
