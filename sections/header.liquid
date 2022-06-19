@@ -372,8 +372,8 @@
     {%- if request.page_type == 'index' -%}
       <h1 class="header__heading">
     {%- endif -%}
-      {%- if section.settings.logo != blank -%}
-      <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+      {%- if section.settings.logo_url != blank -%}
+      <a href="{{ section.settings.logo_url }}" class="header__heading-link link link--text focus-inset">
       {%- else -%}
       <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
       {%- endif -%}
