@@ -887,6 +887,9 @@
         "logo": {
           "label": "Logo image"
         },
+        "logo_url": {
+          "label": "URL behind logo"
+        },
         "logo_width": {
           "unit": "px",
           "label": "Custom logo width"
