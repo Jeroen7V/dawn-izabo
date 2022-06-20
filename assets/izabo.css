@@ -243,8 +243,12 @@ ul.header__submenu.list-menu {
   .grid--4-col-desktop .grid__item
 }
 
-/* 
+
+/* changes contact form */
+.field:hover.field::after, .field::after, .field__input:focus {
+  box-shadow: none;
+}
+
 .field__input {
   border-bottom: .3rem dotted black;
 }
-*/
