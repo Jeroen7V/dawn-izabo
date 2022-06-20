@@ -49,3 +49,7 @@ sticky-header.header-wrapper header.header {
 html:not([data-banner="true"]) #MainContent {
   margin-top: 1rem;
 }
+
+div.rte p {
+  line-height: 1.25;
+}
