@@ -252,3 +252,7 @@ ul.header__submenu.list-menu {
 .field__input {
   border-bottom: .3rem dotted black;
 }
+
+.field__label {
+  text-transform: uppercase;
+}
