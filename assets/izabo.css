@@ -190,7 +190,10 @@ html:not([data-pastheader='false']) a.header__menu-item {
 
 ul.header__submenu.list-menu {
   border: 1px solid rgba(0, 0, 0, 0.25);
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 1);
+  text-align: right;
+  direction: rtl;
+  right: 0;
 }
 
 @media screen and (min-width: 750px) {
@@ -239,3 +242,9 @@ ul.header__submenu.list-menu {
 
   .grid--4-col-desktop .grid__item
 }
+
+/* 
+.field__input {
+  border-bottom: .3rem dotted black;
+}
+*/
