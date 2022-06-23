@@ -13,6 +13,13 @@ div.project {
 
 div.project__image {
   text-align: center;
+  display: table;
+}
+
+div.project__image_center {
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 img.project__image_obj {
@@ -25,4 +32,10 @@ div#shopify-section-footer {
   position: absolute;
   top: 100vh;
   width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+  img.project__image_obj {
+    padding-top: 10rem;
+  }
 }
