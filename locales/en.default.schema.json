@@ -2753,7 +2753,8 @@
       "image": {
         "label": "An image for your projects page."
       },
-      "description": "A name for your project."
+      "description": "A name for your project.",
+      "header": "Section padding"
     }
   }
 }
