@@ -21,7 +21,7 @@ img.project__image_obj {
   padding-top: 40rem;
 }
 
-div.shopify-section-footer {
+div#shopify-section-footer {
   position: absolute;
   top: 100vh;
   width: 100%;
