@@ -9,9 +9,17 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "project": {
+      "type": "project",
+      "disabled": false,
+      "settings": {
+        "project_name": "Project"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "project"
   ]
 }
