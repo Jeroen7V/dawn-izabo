@@ -13,7 +13,13 @@
     "project": {
       "type": "project",
       "settings": {
-        "project_name": "Project"
+        "project_name": "Project",
+        "image_width": 100,
+        "image_1": "shopify:\/\/shop_images\/icon.png",
+        "image_2": "shopify:\/\/shop_images\/Screenshot_2022-04-23_at_17.02.02.png",
+        "image_3": "shopify:\/\/shop_images\/izabo-bg_1.jpg",
+        "padding_top": 84,
+        "padding_bottom": 0
       }
     }
   },
