@@ -1,6 +1,6 @@
 {{ 'section-project.css' | asset_url | stylesheet_tag }}
 
-<project-component class="project">
+<div class="project project">
   {%- if section.settings.image_1 != blank -%}
   <div class="project__image">
     {%- assign logo_alt = section.settings.logo.alt | default: section.settings.project_name | escape -%}
@@ -48,10 +48,10 @@
   </div>
   {%- endif -%}
 
-</project-component>
-<project-filler>
-  
-</project-filler>
+</div>
+<div class="project-filler">
+
+</div>
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
