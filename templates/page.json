@@ -9,9 +9,19 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "16559942975c5bd0d4": {
+      "type": "project",
+      "settings": {
+        "project_name": "Project",
+        "image_1": "shopify:\/\/shop_images\/Screenshot_2022-04-23_at_17.02.02.png",
+        "image_2": "shopify:\/\/shop_images\/placeholder-video.jpg",
+        "image_3": "shopify:\/\/shop_images\/placeholder-image.jpg"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16559942975c5bd0d4"
   ]
 }
