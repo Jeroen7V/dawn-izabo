@@ -2751,10 +2751,10 @@
     "project": {
       "name": "Project",
       "image": {
+        "header": "Section padding",
         "label": "An image for your projects page."
       },
-      "description": "A name for your project.",
-      "header": "Section padding"
+      "description": "A name for your project."
     }
   }
 }

@@ -12,7 +12,6 @@ div.project {
 }
 
 div.project__image {
-  text-align: center;
   display: table;
 }
 
@@ -20,6 +19,8 @@ div.project__image_center {
   height: 100vh;
   display: table-cell;
   vertical-align: middle;
+  width: 100vw;
+  text-align: center;
 }
 
 img.project__image_obj {
