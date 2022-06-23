@@ -20,6 +20,7 @@ div.project__image_center {
   height: 100vh;
   display: table-cell;
   vertical-align: middle;
+  text-align: center;
 }
 
 img.project__image_obj {
