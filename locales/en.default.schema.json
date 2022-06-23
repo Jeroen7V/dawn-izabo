@@ -2747,6 +2747,13 @@
       "presets": {
         "name": "Collapsible content"
       }
+    },
+    "project": {
+      "name": "Project",
+      "image": {
+        "label": "An image for your projects page."
+      },
+      "description": "A name for your project."
     }
   }
 }
