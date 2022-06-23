@@ -9,9 +9,20 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1655997083fc475bce": {
+      "type": "project",
+      "settings": {
+        "project_name": "Project",
+        "image_width": 100,
+        "image_1": "shopify:\/\/shop_images\/izabo-bg_1.jpg",
+        "image_2": "shopify:\/\/shop_images\/Screenshot_2022-04-23_at_17.02.02.png",
+        "image_3": "shopify:\/\/shop_images\/placeholder-video.jpg"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1655997083fc475bce"
   ]
 }

@@ -12,7 +12,6 @@
     },
     "project": {
       "type": "project",
-      "disabled": false,
       "settings": {
         "project_name": "Project"
       }
