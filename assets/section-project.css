@@ -1,0 +1,22 @@
+body {
+  overflow-x: hidden;
+}
+
+project-filler {
+  width: 100vw;
+  height: 100vh;
+}
+
+project-component {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+}
+
+img.project__image_obj {
+  max-width: 100%;
+  height: auto;
+  padding-top: 40rem;
+}
