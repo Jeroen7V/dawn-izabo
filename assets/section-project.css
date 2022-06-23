@@ -13,6 +13,7 @@ div.project {
   width: 100vw;
   height: 100vh;
   overflow: scroll;
+  box-sizing: content-box;
 }
 
 div.project__image {
@@ -23,4 +24,10 @@ img.project__image_obj {
   max-width: 80%;
   height: auto;
   padding-top: 40rem;
+}
+
+div.shopify-section-footer {
+  position: absolute;
+  top: 100vh;
+  width: 100%;
 }
