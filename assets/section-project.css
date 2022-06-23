@@ -15,8 +15,12 @@ div.project {
   overflow: scroll;
 }
 
+div.project__image {
+  text-align: center;
+}
+
 img.project__image_obj {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   padding-top: 40rem;
 }
