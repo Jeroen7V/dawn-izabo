@@ -21,20 +21,10 @@
         "image_4": "shopify:\/\/shop_images\/PROJECTSPAGE4.png",
         "image_5": "shopify:\/\/shop_images\/PROJECTSPAGE5.png"
       }
-    },
-    "165606988474ae0030": {
-      "type": "project",
-      "settings": {
-        "project_name": "Project",
-        "image_width": 100,
-        "image_1": "shopify:\/\/shop_images\/PROJECTSPAGE6.png",
-        "image_2": "shopify:\/\/shop_images\/PROJECTSPAGE7.png"
-      }
     }
   },
   "order": [
     "main",
-    "project",
-    "165606988474ae0030"
+    "project"
   ]
 }
