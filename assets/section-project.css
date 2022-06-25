@@ -39,6 +39,14 @@ div#shopify-section-footer {
   img.project__image_obj {
     padding-top: 10rem;
   }
+
+  div.rte table tr {
+    height: 50vh;
+  }
+
+  div.rte table td {
+    height: 50vh;
+  }
 }
 
 div.rte table {
