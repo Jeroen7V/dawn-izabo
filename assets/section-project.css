@@ -49,7 +49,14 @@ div.rte table {
   height: 100vh;
   overflow-y: scroll;
   box-sizing: content-box;
+  display: block;
+}
+
+div.rte table tr {
   display: table;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 40rem;
 }
 
 div.rte table td {
@@ -58,4 +65,9 @@ div.rte table td {
   vertical-align: middle;
   display: table-cell;
   text-align: center;
+  border: 0;
+}
+
+div.rte table img {
+  width: 80%;
 }
