@@ -35,17 +35,17 @@ div#shopify-section-footer {
   width: 100%;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (mix-width: 750px) {
   img.project__image_obj {
     padding-top: 10rem;
   }
 
   div.rte table tr {
-    height: 50vh;
+    height: 100vh;
   }
 
   div.rte table td {
-    height: 50vh;
+    height: 100vh;
   }
 }
 
@@ -63,13 +63,13 @@ div.rte table {
 div.rte table tr {
   display: table;
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
   margin-top: 40rem;
 }
 
 div.rte table td {
   padding: 0;
-  height: 100vh;
+  height: 50vh;
   vertical-align: middle;
   display: table-cell;
   text-align: center;
@@ -78,4 +78,5 @@ div.rte table td {
 
 div.rte table img {
   width: 80%;
+  border: 0;
 }
