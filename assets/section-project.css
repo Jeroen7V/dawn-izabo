@@ -6,6 +6,10 @@ sticky-header.header-wrapper header.header {
   display: grid;
 }
 
+.header > .header__heading-link {
+  display: none;
+}
+
 div.page__title {
   padding-top: 5rem;
 }
