@@ -21,8 +21,8 @@ div#shopify-section-footer {
 }
 
 @media screen and (min-width: 750px) {
-  img.project__image_obj {
-    padding-top: 10rem;
+  div.rte table {
+    padding-top: 0;
   }
 
   div.rte table tr {
@@ -44,6 +44,7 @@ div.rte table {
   overflow-y: scroll;
   box-sizing: content-box;
   display: block;
+  padding-top: 10rem;
 }
 
 div.rte table tr {
