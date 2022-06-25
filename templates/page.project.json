@@ -12,16 +12,7 @@
     },
     "project": {
       "type": "project",
-      "disabled": false,
-      "settings": {
-        "project_name": "Project",
-        "image_width": 100,
-        "image_1": "shopify:\/\/shop_images\/PROJECTSPAGE.png",
-        "image_2": "shopify:\/\/shop_images\/PROJECTSPAGE2.png",
-        "image_3": "shopify:\/\/shop_images\/PROJECTSPAGE3.png",
-        "image_4": "shopify:\/\/shop_images\/PROJECTSPAGE4.png",
-        "image_5": "shopify:\/\/shop_images\/PROJECTSPAGE5.png"
-      }
+      "disabled": false
     }
   },
   "order": [

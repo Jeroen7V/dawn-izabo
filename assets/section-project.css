@@ -2,31 +2,12 @@ body {
   overflow-x: hidden;
 }
 
-div.project {
-  position: absolute;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  overflow-y: scroll;
-  box-sizing: content-box;
+sticky-header.header-wrapper header.header {
+  display: grid;
 }
 
-div.project__image {
-  display: table;
-}
-
-div.project__image_center {
-  height: 100vh;
-  display: table-cell;
-  vertical-align: middle;
-  width: 100vw;
-  text-align: center;
-}
-
-img.project__image_obj {
-  max-width: 80%;
-  height: auto;
-  padding-top: 40rem;
+div.page__title {
+  padding-top: 5rem;
 }
 
 div#shopify-section-footer {
