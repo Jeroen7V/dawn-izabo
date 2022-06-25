@@ -12,6 +12,7 @@
     },
     "project": {
       "type": "project",
+      "disabled": true,
       "settings": {
         "project_name": "Project",
         "image_width": 100,

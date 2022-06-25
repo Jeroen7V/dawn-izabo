@@ -40,3 +40,22 @@ div#shopify-section-footer {
     padding-top: 10rem;
   }
 }
+
+div.rte table {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  box-sizing: content-box;
+  display: table;
+}
+
+div.rte table td {
+  padding: 0;
+  height: 100vh;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+}
