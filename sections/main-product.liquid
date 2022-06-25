@@ -223,11 +223,6 @@
                 </h2>
               </a>
             </div>
-
-          <!--endcoll2-->
-      </div>
-          <!--endgrid-->
-          </div> 
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
@@ -352,11 +347,6 @@
               </details>
             </share-button>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
-            <!--grid-->
-            <div class="grid grid--1-col grid--2-col-tablet">
-            <!--coll 1-->
-            <div class="grid__item">
-
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
@@ -411,11 +401,7 @@
                 </variant-selects>
               {%- endif -%}
             {%- endunless -%}
-            <!--endcol1-->
-            </div>
 
-            <!--coll2-->
-            <div class="grid__item">
             <noscript class="product-form__noscript-wrapper-{{ section.id }}">
               <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
