@@ -1,5 +1,5 @@
 {{ 'section-project.css' | asset_url | stylesheet_tag }}
-
+<!--
 <div class="project project">
   {%- if section.settings.image_1 != blank -%}
   <div class="project__image">
@@ -67,8 +67,8 @@
       </div>
     </div>
   {%- endif -%}
-
 </div>
+-->
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
