@@ -1224,9 +1224,11 @@ div.product div.price {
 @media screen and (min-width: 990px) {
   .grid__item.grid__item__variant_picker {
     width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2);
+    max-width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2);
   }
   
   .grid__item.grid__item__info {
     width: calc(60% - var(--grid-desktop-horizontal-spacing) / 2);
+    max-width: calc(60% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 }
