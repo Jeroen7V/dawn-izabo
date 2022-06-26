@@ -1215,3 +1215,12 @@ div.product__description h4 {
 div.product div.price {
   margin: 1rem 0;
 }
+
+/* Izabo */
+.grid__item.grid__item__variant_picker {
+  width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2);
+}
+
+.grid__item.grid__item__info {
+  width: calc(60% - var(--grid-desktop-horizontal-spacing) / 2);
+}
