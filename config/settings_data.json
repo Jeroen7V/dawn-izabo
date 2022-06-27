@@ -139,6 +139,7 @@
         "blocks": {
           "6f776017-bec3-497e-9301-7cce0db5ab33": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "Quick links",
               "menu": "main-menu"
