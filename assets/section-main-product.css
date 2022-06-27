@@ -338,7 +338,7 @@ a.product__text {
   margin-top: 0;
   border-bottom: 1px solid black;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .product__accordion .accordion__content {
