@@ -194,6 +194,11 @@ ul.header__submenu.list-menu {
   text-align: right;
   direction: rtl;
   right: 0;
+  padding: 1.2rem 0;
+}
+
+.header__submenu .header__menu-item {
+  padding: .6rem 1.2rem;
 }
 
 @media screen and (min-width: 750px) {
