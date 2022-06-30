@@ -199,6 +199,7 @@ ul.header__submenu.list-menu {
 
 .header__submenu .header__menu-item {
   padding: .6rem 1.2rem;
+  display: inline-block;
 }
 
 .header__submenu .header__menu-item::before {
