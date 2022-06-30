@@ -191,8 +191,8 @@ html:not([data-pastheader='false']) a.header__menu-item {
 ul.header__submenu.list-menu {
   border: 1px solid rgba(0, 0, 0, 0.25);
   background: rgba(255, 255, 255, 1);
-  text-align: right;
-  direction: rtl;
+  text-align: left;
+  direction: ltr;
   right: 0;
   padding: 1.2rem 0;
 }
@@ -201,7 +201,7 @@ ul.header__submenu.list-menu {
   padding: .6rem 1.2rem;
 }
 
-.header__submenu .header__menu-item::after {
+.header__submenu .header__menu-item::before {
   content: "\2197";
 }
 
