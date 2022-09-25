@@ -204,6 +204,7 @@ ul.header__submenu.list-menu {
 .header__submenu .header__menu-item {
   padding: .6rem 1.2rem;
   display: inline-block;
+  text-rendering: optimizeLegibility;
 }
 
 .header__submenu .header__menu-item::before, .menu-drawer__inner-submenu .menu-drawer__menu-item::before {
