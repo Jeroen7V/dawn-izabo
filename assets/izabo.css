@@ -212,7 +212,7 @@ ul.header__submenu.list-menu {
 }
 
 .header__submenu .header__menu-item::before, .menu-drawer__inner-submenu .menu-drawer__menu-item::before {
-  content: "\\2197";
+  content: "\2197 ";
   font-family: "Favorit Mono";
 }
 
