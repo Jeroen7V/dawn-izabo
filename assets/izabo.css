@@ -212,7 +212,8 @@ ul.header__submenu.list-menu {
 }
 
 .header__submenu .header__menu-item::before, .menu-drawer__inner-submenu .menu-drawer__menu-item::before {
-  content: "\2197 ";
+  content: "\2192 ";
+  transform: rotate(-45deg);
   font-family: "Favorit Mono";
 }
 
@@ -259,8 +260,6 @@ ul.header__submenu.list-menu {
     width: 100%;
     max-width: calc(100% - var(--grid-desktop-horizontal-spacing));
   }
-
-  .grid--4-col-desktop .grid__item
 }
 
 
