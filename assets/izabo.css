@@ -201,6 +201,10 @@ ul.header__submenu.list-menu {
   padding: 1.2rem 0;
 }
 
+.header__submenu {
+  text-rendering: optimizeLegibility;
+}
+
 .header__submenu .header__menu-item {
   padding: .6rem 1.2rem;
   display: inline-block;
