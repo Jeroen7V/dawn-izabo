@@ -1,13 +1,17 @@
 @font-face {
   font-family: 'Favorit regular';
   font-weight: 500;
-  src: url('favorit-regular-webfont.woff') format('woff'), url('favorit-regular-webfont.otf') format('otf');
+  src: url('favorit-regular-webfont.woff') format('woff'),
+       url('favorit-regular-webfont.ttf') format('truetype'),
+       url('favorit-regular-webfont.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Favorit Mono';
   font-weight: 500;
-  src: url('favorit_regular_mono-webfont.woff') format('woff'), url('favorit_regular_mono-webfont.otf') format('otf');
+  src: url('favorit_regular_mono-webfont.woff') format('woff'),
+       url('favorit_regular_mono-webfont.ttf') format('truetype'),
+       url('favorit_regular_mono-webfont.otf') format('opentype');
 }
 
 body {
